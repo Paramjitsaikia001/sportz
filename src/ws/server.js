@@ -1,0 +1,37 @@
+import { WebSocket, WebSocketServer } from "ws";
+
+function sendJson(socket,payload){
+    if(socket.readyState!== WebSocket.OPEN) return;
+
+    socket.send(JSON.stringify(payload))
+}
+
+function broadcast(wss,payload){
+    for(const client of wss.clients){
+        if(client.readyState!== WebSocket.OPEN) continue;
+
+        client.send(JSON.stringify(payload))
+    }
+}
+
+export function attachWebSocketServer(server){
+    const ws= new WebSocketServer({
+        server,
+        path:"/ws",
+        maxPayload:1024*1024
+    });
+
+    ws.on("connection",(socket)=>{
+        sendJson(socket,{type:"welcome"})
+
+        socket.on("error",(error)=>console.error(error))
+    });
+
+    function broadcastMatchCreated(match){
+        broadcast(ws,{type:"match_created",data:match})
+    }
+
+    return {broadcastMatchCreated}
+
+
+}
