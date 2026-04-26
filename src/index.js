@@ -3,6 +3,7 @@ import MatchRouter from "./routes/matches.routes.js"
 import http from 'http'
 import { attachWebSocketServer } from "./ws/server.js";
 import { securityMiddleware } from "./arcjet.js";
+import { commentaryRouter } from "./routes/commentary.route.js";
 
 
 
@@ -17,10 +18,13 @@ app.use(express.json())
 app.get("/",(req,res)=>{
     res.send("hello to my websocket project")
 })
+// IMPORTANT: In your main server file (e.g., server.js), add:
 
+app.set("trust proxy", true);
 app.use(securityMiddleware())
 
 app.use("/matches",MatchRouter)
+app.use("/matches/:id/commentary",commentaryRouter)
 
 
 const {broadcastMatchCreated} = attachWebSocketServer(server)
