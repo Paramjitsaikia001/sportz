@@ -2,6 +2,7 @@ import express from "express"
 import MatchRouter from "./routes/matches.routes.js"
 import http from 'http'
 import { attachWebSocketServer } from "./ws/server.js";
+import { securityMiddleware } from "./arcjet.js";
 
 
 
@@ -16,6 +17,8 @@ app.use(express.json())
 app.get("/",(req,res)=>{
     res.send("hello to my websocket project")
 })
+
+app.use(securityMiddleware())
 
 app.use("/matches",MatchRouter)
 
