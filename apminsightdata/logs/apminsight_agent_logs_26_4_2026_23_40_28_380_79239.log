@@ -597,3 +597,111 @@
     at TLSSocket.emit (node:events:518:28)
     at TLSSocket.emit (node:domain:489:12)
     at emitErrorNT (node:internal/streams/destroy:170:8)
+[27/4/2026 0:6:28] [INFO] Dependencies : {"@arcjet/inspect":"^1.3.0","@arcjet/node":"^1.3.0","apminsight":"^5.4.0","dotenv":"^17.3.1","drizzle-orm":"^0.45.1","express":"^5.2.1","pg":"^8.20.0","ws":"^8.20.0","wscat":"^6.1.0","zod":"^4.3.6"} 
+[27/4/2026 0:6:28] [CRITICAL] Agent not configured properly. Please check the apminsightnode.json file for the configured licenseKey. Note: Copy-paste the entire alphanumeric device key as the license key. 
+[27/4/2026 0:6:28] [INFO] data processing starts 
+[27/4/2026 0:6:28] [CRITICAL]  Unknown response code ::undefined 
+[27/4/2026 0:6:28] [INFO] intiating /arh/data request to undefined:443 
+[27/4/2026 0:6:28] [INFO] data processing ends 
+[27/4/2026 0:6:28] [INFO] while initiating req to /arh/data, endpoint https://undefined:443/, failed: getaddrinfo ENOTFOUND undefined moving onto next endpoint 
+[27/4/2026 0:6:28] [ERROR] Error occured for in /arh/data request Error: All endpoints failed
+    at tryEndpoint (/Users/paramjitsaikia/Downloads/PARAGIT/sportz/node_modules/apminsight/lib/communication/reqhandler.js:13:16)
+    at /Users/paramjitsaikia/Downloads/PARAGIT/sportz/node_modules/apminsight/lib/communication/reqhandler.js:42:17
+    at ClientRequest.<anonymous> (/Users/paramjitsaikia/Downloads/PARAGIT/sportz/node_modules/apminsight/lib/communication/reqhandler.js:90:9)
+    at ClientRequest.emit (node:events:518:28)
+    at ClientRequest.emit (node:domain:489:12)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:518:28)
+    at TLSSocket.emit (node:domain:489:12)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+[27/4/2026 0:7:28] [INFO] Dependencies : {"@arcjet/inspect":"^1.3.0","@arcjet/node":"^1.3.0","apminsight":"^5.4.0","dotenv":"^17.3.1","drizzle-orm":"^0.45.1","express":"^5.2.1","pg":"^8.20.0","ws":"^8.20.0","wscat":"^6.1.0","zod":"^4.3.6"} 
+[27/4/2026 0:7:28] [CRITICAL] Agent not configured properly. Please check the apminsightnode.json file for the configured licenseKey. Note: Copy-paste the entire alphanumeric device key as the license key. 
+[27/4/2026 0:7:28] [INFO] data processing starts 
+[27/4/2026 0:7:28] [CRITICAL]  Unknown response code ::undefined 
+[27/4/2026 0:7:28] [INFO] intiating /arh/data request to undefined:443 
+[27/4/2026 0:7:28] [INFO] data processing ends 
+[27/4/2026 0:7:28] [INFO] while initiating req to /arh/data, endpoint https://undefined:443/, failed: getaddrinfo ENOTFOUND undefined moving onto next endpoint 
+[27/4/2026 0:7:28] [ERROR] Error occured for in /arh/data request Error: All endpoints failed
+    at tryEndpoint (/Users/paramjitsaikia/Downloads/PARAGIT/sportz/node_modules/apminsight/lib/communication/reqhandler.js:13:16)
+    at /Users/paramjitsaikia/Downloads/PARAGIT/sportz/node_modules/apminsight/lib/communication/reqhandler.js:42:17
+    at ClientRequest.<anonymous> (/Users/paramjitsaikia/Downloads/PARAGIT/sportz/node_modules/apminsight/lib/communication/reqhandler.js:90:9)
+    at ClientRequest.emit (node:events:518:28)
+    at ClientRequest.emit (node:domain:489:12)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:518:28)
+    at TLSSocket.emit (node:domain:489:12)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+[27/4/2026 0:8:28] [INFO] Dependencies : {"@arcjet/inspect":"^1.3.0","@arcjet/node":"^1.3.0","apminsight":"^5.4.0","dotenv":"^17.3.1","drizzle-orm":"^0.45.1","express":"^5.2.1","pg":"^8.20.0","ws":"^8.20.0","wscat":"^6.1.0","zod":"^4.3.6"} 
+[27/4/2026 0:8:28] [CRITICAL] Agent not configured properly. Please check the apminsightnode.json file for the configured licenseKey. Note: Copy-paste the entire alphanumeric device key as the license key. 
+[27/4/2026 0:8:28] [INFO] data processing starts 
+[27/4/2026 0:8:28] [CRITICAL]  Unknown response code ::undefined 
+[27/4/2026 0:8:28] [INFO] intiating /arh/data request to undefined:443 
+[27/4/2026 0:8:28] [INFO] data processing ends 
+[27/4/2026 0:8:28] [INFO] while initiating req to /arh/data, endpoint https://undefined:443/, failed: getaddrinfo ENOTFOUND undefined moving onto next endpoint 
+[27/4/2026 0:8:28] [ERROR] Error occured for in /arh/data request Error: All endpoints failed
+    at tryEndpoint (/Users/paramjitsaikia/Downloads/PARAGIT/sportz/node_modules/apminsight/lib/communication/reqhandler.js:13:16)
+    at /Users/paramjitsaikia/Downloads/PARAGIT/sportz/node_modules/apminsight/lib/communication/reqhandler.js:42:17
+    at ClientRequest.<anonymous> (/Users/paramjitsaikia/Downloads/PARAGIT/sportz/node_modules/apminsight/lib/communication/reqhandler.js:90:9)
+    at ClientRequest.emit (node:events:518:28)
+    at ClientRequest.emit (node:domain:489:12)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:518:28)
+    at TLSSocket.emit (node:domain:489:12)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+[27/4/2026 0:9:28] [INFO] Dependencies : {"@arcjet/inspect":"^1.3.0","@arcjet/node":"^1.3.0","apminsight":"^5.4.0","dotenv":"^17.3.1","drizzle-orm":"^0.45.1","express":"^5.2.1","pg":"^8.20.0","ws":"^8.20.0","wscat":"^6.1.0","zod":"^4.3.6"} 
+[27/4/2026 0:9:28] [CRITICAL] Agent not configured properly. Please check the apminsightnode.json file for the configured licenseKey. Note: Copy-paste the entire alphanumeric device key as the license key. 
+[27/4/2026 0:9:28] [INFO] data processing starts 
+[27/4/2026 0:9:28] [CRITICAL]  Unknown response code ::undefined 
+[27/4/2026 0:9:28] [INFO] intiating /arh/data request to undefined:443 
+[27/4/2026 0:9:28] [INFO] data processing ends 
+[27/4/2026 0:9:28] [INFO] while initiating req to /arh/data, endpoint https://undefined:443/, failed: getaddrinfo ENOTFOUND undefined moving onto next endpoint 
+[27/4/2026 0:9:28] [ERROR] Error occured for in /arh/data request Error: All endpoints failed
+    at tryEndpoint (/Users/paramjitsaikia/Downloads/PARAGIT/sportz/node_modules/apminsight/lib/communication/reqhandler.js:13:16)
+    at /Users/paramjitsaikia/Downloads/PARAGIT/sportz/node_modules/apminsight/lib/communication/reqhandler.js:42:17
+    at ClientRequest.<anonymous> (/Users/paramjitsaikia/Downloads/PARAGIT/sportz/node_modules/apminsight/lib/communication/reqhandler.js:90:9)
+    at ClientRequest.emit (node:events:518:28)
+    at ClientRequest.emit (node:domain:489:12)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:518:28)
+    at TLSSocket.emit (node:domain:489:12)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+[27/4/2026 0:10:28] [INFO] Dependencies : {"@arcjet/inspect":"^1.3.0","@arcjet/node":"^1.3.0","apminsight":"^5.4.0","dotenv":"^17.3.1","drizzle-orm":"^0.45.1","express":"^5.2.1","pg":"^8.20.0","ws":"^8.20.0","wscat":"^6.1.0","zod":"^4.3.6"} 
+[27/4/2026 0:10:28] [CRITICAL] Agent not configured properly. Please check the apminsightnode.json file for the configured licenseKey. Note: Copy-paste the entire alphanumeric device key as the license key. 
+[27/4/2026 0:10:28] [INFO] data processing starts 
+[27/4/2026 0:10:28] [CRITICAL]  Unknown response code ::undefined 
+[27/4/2026 0:10:28] [INFO] intiating /arh/data request to undefined:443 
+[27/4/2026 0:10:28] [INFO] data processing ends 
+[27/4/2026 0:10:28] [INFO] while initiating req to /arh/data, endpoint https://undefined:443/, failed: getaddrinfo ENOTFOUND undefined moving onto next endpoint 
+[27/4/2026 0:10:28] [ERROR] Error occured for in /arh/data request Error: All endpoints failed
+    at tryEndpoint (/Users/paramjitsaikia/Downloads/PARAGIT/sportz/node_modules/apminsight/lib/communication/reqhandler.js:13:16)
+    at /Users/paramjitsaikia/Downloads/PARAGIT/sportz/node_modules/apminsight/lib/communication/reqhandler.js:42:17
+    at ClientRequest.<anonymous> (/Users/paramjitsaikia/Downloads/PARAGIT/sportz/node_modules/apminsight/lib/communication/reqhandler.js:90:9)
+    at ClientRequest.emit (node:events:518:28)
+    at ClientRequest.emit (node:domain:489:12)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:518:28)
+    at TLSSocket.emit (node:domain:489:12)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+[27/4/2026 0:11:28] [INFO] Dependencies : {"@arcjet/inspect":"^1.3.0","@arcjet/node":"^1.3.0","apminsight":"^5.4.0","dotenv":"^17.3.1","drizzle-orm":"^0.45.1","express":"^5.2.1","pg":"^8.20.0","ws":"^8.20.0","wscat":"^6.1.0","zod":"^4.3.6"} 
+[27/4/2026 0:11:28] [CRITICAL] Agent not configured properly. Please check the apminsightnode.json file for the configured licenseKey. Note: Copy-paste the entire alphanumeric device key as the license key. 
+[27/4/2026 0:11:28] [INFO] data processing starts 
+[27/4/2026 0:11:28] [CRITICAL]  Unknown response code ::undefined 
+[27/4/2026 0:11:28] [INFO] intiating /arh/data request to undefined:443 
+[27/4/2026 0:11:28] [INFO] data processing ends 
+[27/4/2026 0:11:28] [INFO] while initiating req to /arh/data, endpoint https://undefined:443/, failed: getaddrinfo ENOTFOUND undefined moving onto next endpoint 
+[27/4/2026 0:11:28] [ERROR] Error occured for in /arh/data request Error: All endpoints failed
+    at tryEndpoint (/Users/paramjitsaikia/Downloads/PARAGIT/sportz/node_modules/apminsight/lib/communication/reqhandler.js:13:16)
+    at /Users/paramjitsaikia/Downloads/PARAGIT/sportz/node_modules/apminsight/lib/communication/reqhandler.js:42:17
+    at ClientRequest.<anonymous> (/Users/paramjitsaikia/Downloads/PARAGIT/sportz/node_modules/apminsight/lib/communication/reqhandler.js:90:9)
+    at ClientRequest.emit (node:events:518:28)
+    at ClientRequest.emit (node:domain:489:12)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:518:28)
+    at TLSSocket.emit (node:domain:489:12)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
